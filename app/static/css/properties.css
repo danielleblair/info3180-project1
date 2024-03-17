@@ -1,0 +1,36 @@
+
+
+.pty-container2{
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    justify-content: space-between;
+    grid-gap: 30px;
+}
+
+img {
+    height: 300px;
+    width: 100%;
+}
+
+.each-card shadow{
+    margin: 10px;
+    height: fit-content;
+    padding: 10px;
+   
+}
+
+.property-info {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.price p {
+    margin: 10px;
+    border-radius: 80px;
+}
+
+.pbutton{
+    width: 100%;
+}
+
