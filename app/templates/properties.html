@@ -19,14 +19,14 @@
                 </div>
                 <p></p>
                 <div class="property-info">
-                    <p><h4>{{property.title}}</h4></p>
-                    <p class="text-muted">{{property.location}}</p>
-                </div>
-                <div class="price">
-                    <p class="btn btn-success">{{property.price}}</p>
+                    <div><h4>{{property.title}}</h4></div>
+                    <div class="text-muted">{{property.location}}</div>
+                    <div class="price">
+                        <div class="btn btn-success">{{property.price}}</div>
+                    </div>
                 </div>
                 <div class="pbutton">
-                    <a class="btn btn-primary btn-block" href="{{url_for('aboutproperty', propertyid=property.id)}}"><button class="btn btn-primary btn-block">View Property</button></a>
+                    <a href="{{url_for('aboutproperty', propertyid=property.id)}}"><button class="p-button"><b>View Property</b></button></a>
                 </div>
             </div>
     

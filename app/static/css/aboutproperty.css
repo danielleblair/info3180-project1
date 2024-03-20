@@ -31,8 +31,9 @@ img {
 }
 
 .price-btn{
-    background-color: rgb(103, 103, 255);
+    background-color: rgb(148, 148, 255);
     margin: 10px;
+    color: white;
 }
 
 .type-btn{
